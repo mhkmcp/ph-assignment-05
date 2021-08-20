@@ -1,0 +1,34 @@
+/* choice options */
+.option {
+    border: 1px solid #2e856e;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+.option:hover {
+    color: white;
+    background-color: #2e856e;
+}
+
+/* cost table border */
+.cost {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 15px;
+    border-bottom: 1px solid #2e856e;
+}
+.delivery {
+    border-bottom: 2px solid #2e856e;
+}
+
+/* selected option mark  */
+.selected {
+    color: white;
+    background-color: #2e856e;
+}
+input, input:focus {
+    outline: none;
+    padding-bottom: 4px;
+    border: 2px solid #2e856e;
+    border-radius: 6px;
+}
